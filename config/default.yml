@@ -1,0 +1,13 @@
+host: 0.0.0.0
+port: 3000
+swaggerHost: localhost:3000
+
+metaData:
+  host: hh-pgsql-public.ebi.ac.uk
+  port: 5432
+  username: reader
+  password: NWDMCE5xdipIjRrp
+  database: pfmegrnargs
+  type: postgres
+  synchronize: true,
+  entities: ["dist/**.entity{.ts,.js}"]
